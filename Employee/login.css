@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppin', sans-serif;
+}
+
+body{
+    background: rgb(169, 223, 255);
+}

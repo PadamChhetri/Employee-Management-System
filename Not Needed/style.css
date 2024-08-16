@@ -1,0 +1,98 @@
+body{
+    font-family: "Trirong", serif;
+    color: wheat;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('img/pexels-idriss-meliani-2982449.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+.left{
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.left img{
+    width: 100px;
+}
+
+.left div{
+    text-align: center;
+}
+
+.mid{
+    /* display: block ;  */
+    width: 55%;
+    margin: 0px auto ;
+    /* border: 2px solid red; */
+    
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+ .navbar{
+    display: inline-block;
+} 
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+ color: paleturquoise;
+}
+
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+
+
+.header{
+    background-color:rgb(83, 97, 57);
+    height: 100px;
+    /* width: 40px; */
+}
+.navbar li a{
+    text-decoration:none;
+}
+
+@media screen and (max-width:1326px) {
+    .navbar{
+        display: flex;
+        
+    }
+    
+}
